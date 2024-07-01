@@ -1,0 +1,97 @@
+.Auth {
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: calc(50vw - 50vw);
+    left: 50vw;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.Auth form {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.Auth form h6 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.Auth form .Btn {
+    width: 100%;
+    background: var(--main);
+    color: #fff;
+    border-radius: 999px;
+    padding: 10px 18px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* For CustomMessage */
+.CustomMessage {
+    margin-top: 10px;
+    color: #333030;
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.CustomMessage span {
+    text-decoration: underline;
+    color: var(--main);
+    cursor: pointer;
+}
+
+/* For Upload Image */
+.Upload_Dropzone_Image {
+    margin-bottom: 10px;
+}
+
+.Upload_Dropzone_Image label {
+    font-weight: 700;
+}
+
+.Upload_Dropzone_Image_Parent {
+    display: flex;
+    gap: 20px;
+}
+
+.Upload_Dropzone_Image_Parent div img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* For Error/Success Messages */
+.ErrorMessage {
+    background: var(--main);
+    width: max-content;
+    margin-left: 10px;
+    border-radius: 999px;
+    padding: 6px 13px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.SuccessMessage {
+    /* background: var(--main); */
+    background: green;
+    width: max-content;
+    margin-left: 10px;
+    border-radius: 999px;
+    padding: 6px 13px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 20px;
+}

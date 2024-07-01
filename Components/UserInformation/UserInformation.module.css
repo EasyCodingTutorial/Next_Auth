@@ -1,0 +1,44 @@
+.UserHeading {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 100px;
+}
+
+.UserInformation {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 100px;
+}
+
+.UserInformation img {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.UserInformation div h6 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.UserInformation div h6 span {
+    color: var(--main);
+}
+
+.UserInformation .Btn {
+    width: 300px;
+    padding: 9px 15px;
+    font-size: 17px;
+    background: var(--main);
+    color: #fff;
+    font-weight: 800;
+    border-radius: 999px;
+    cursor: pointer;
+    margin-top: 10px;
+}

@@ -1,0 +1,12 @@
+.Wrapper {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Wrapper img {
+    height: 100vh;
+    width: 50vw;
+    object-fit: cover;
+}

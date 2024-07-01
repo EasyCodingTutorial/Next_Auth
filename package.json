@@ -9,16 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@uploadthing/react": "^6.7.1",
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^8.4.4",
+    "next": "14.2.4",
+    "next-auth": "^4.24.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "uploadthing": "^6.13.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "eslint-config-next": "14.2.4",
+    "typescript": "^5"
   }
 }
